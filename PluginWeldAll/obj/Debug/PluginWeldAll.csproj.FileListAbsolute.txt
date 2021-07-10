@@ -1,0 +1,17 @@
+C:\Users\Paril\Documents\Visual Studio 2010\Projects\VCMDL.NET\VCMDL.NET\bin\Debug\PluginWeldAll.dll
+C:\Users\Paril\Documents\Visual Studio 2010\Projects\VCMDL.NET\VCMDL.NET\bin\Debug\PluginWeldAll.pdb
+C:\Users\Paril\Documents\Visual Studio 2010\Projects\VCMDL.NET\PluginWeldAll\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Paril\Documents\Visual Studio 2010\Projects\VCMDL.NET\PluginWeldAll\obj\Debug\PluginWeldAll.dll
+C:\Users\Paril\Documents\Visual Studio 2010\Projects\VCMDL.NET\PluginWeldAll\obj\Debug\PluginWeldAll.pdb
+C:\projects\VCMDL.NET\VCMDL.NET\bin\Debug\PluginWeldAll.dll
+C:\projects\VCMDL.NET\VCMDL.NET\bin\Debug\PluginWeldAll.pdb
+C:\projects\VCMDL.NET\PluginWeldAll\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\VCMDL.NET\PluginWeldAll\obj\Debug\PluginWeldAll.dll
+C:\projects\VCMDL.NET\PluginWeldAll\obj\Debug\PluginWeldAll.pdb
+C:\projects\VCMDL.NET\VCMDL.NET\bin\Plugins\PluginWeldAll.dll
+C:\projects\VCMDL.NET\VCMDL.NET\bin\Plugins\PluginWeldAll.pdb
+D:\projects\VCMDL.NET\VCMDL.NET\bin\Plugins\PluginWeldAll.dll
+D:\projects\VCMDL.NET\VCMDL.NET\bin\Plugins\PluginWeldAll.pdb
+D:\projects\VCMDL.NET\PluginWeldAll\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\VCMDL.NET\PluginWeldAll\obj\Debug\PluginWeldAll.dll
+D:\projects\VCMDL.NET\PluginWeldAll\obj\Debug\PluginWeldAll.pdb

@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{60965E62-D392-4509-9105-A51B5B9EEE0F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VCMDL.NET</RootNamespace>
+    <AssemblyName>VCMDL.NET</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tao.OpenGl, Version=2.1.0.12, Culture=neutral, PublicKeyToken=1ca010269a4501ef, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\TaoFramework\bin\Tao.OpenGl.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.Platform.Windows, Version=1.0.0.5, Culture=neutral, PublicKeyToken=701104b2da67a104" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewFrame.Designer.cs">
+      <DependentUpon>AddNewFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSkin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSkin.Designer.cs">
+      <DependentUpon>AddSkin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BackgroundImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackgroundImage.Designer.cs">
+      <DependentUpon>BackgroundImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasePath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePath.Designer.cs">
+      <DependentUpon>BasePath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeGrid.Designer.cs">
+      <DependentUpon>ChangeGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonToolbox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonToolbox.Designer.cs">
+      <DependentUpon>CommonToolbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompressionStream.cs" />
+    <Compile Include="Controls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoneTab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BoneTab.Designer.cs">
+      <DependentUpon>BoneTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeshesTab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MeshesTab.Designer.cs">
+      <DependentUpon>MeshesTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterpFrames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterpFrames.Designer.cs">
+      <DependentUpon>InterpFrames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteFrames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteFrames.Designer.cs">
+      <DependentUpon>DeleteFrames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtrudeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtrudeForm.Designer.cs">
+      <DependentUpon>ExtrudeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetPositionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetPositionDialog.Designer.cs">
+      <DependentUpon>GetPositionDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GotoFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GotoFrame.Designer.cs">
+      <DependentUpon>GotoFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GroundPlane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroundPlane.Designer.cs">
+      <DependentUpon>GroundPlane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IniFile.cs" />
+    <Compile Include="ModelFace.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModelFace.Designer.cs">
+      <DependentUpon>ModelFace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelVertex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModelVertex.Designer.cs">
+      <DependentUpon>ModelVertex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateTab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CreateTab.Designer.cs">
+      <DependentUpon>CreateTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FastPixel.cs" />
+    <Compile Include="MdlConst.cs" />
+    <Compile Include="MDLType.cs" />
+    <Compile Include="ModelEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModelEditor.Designer.cs">
+      <DependentUpon>ModelEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelImages.cs" />
+    <Compile Include="ModelTab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModelTab.Designer.cs">
+      <DependentUpon>ModelTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules.cs" />
+    <Compile Include="MoveFrames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoveFrames.Designer.cs">
+      <DependentUpon>MoveFrames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiPageControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiPageControl.Designer.cs">
+      <DependentUpon>MultiPageControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewCamera.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResizeSkin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResizeSkin.Designer.cs">
+      <DependentUpon>ResizeSkin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SkinEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SkinEditor.Designer.cs">
+      <DependentUpon>SkinEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Targa.cs" />
+    <Compile Include="UndoBuffer.cs" />
+    <Compile Include="ViewTab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewTab.Designer.cs">
+      <DependentUpon>ViewTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowingMessages.cs" />
+    <EmbeddedResource Include="AddNewFrame.resx">
+      <DependentUpon>AddNewFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSkin.resx">
+      <DependentUpon>AddSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BackgroundImage.resx">
+      <DependentUpon>BackgroundImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePath.resx">
+      <DependentUpon>BasePath.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeGrid.resx">
+      <DependentUpon>ChangeGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonToolbox.resx">
+      <DependentUpon>CommonToolbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoneTab.resx">
+      <DependentUpon>BoneTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeshesTab.resx">
+      <DependentUpon>MeshesTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterpFrames.resx">
+      <DependentUpon>InterpFrames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteFrames.resx">
+      <DependentUpon>DeleteFrames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtrudeForm.resx">
+      <DependentUpon>ExtrudeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetPositionDialog.resx">
+      <DependentUpon>GetPositionDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GotoFrame.resx">
+      <DependentUpon>GotoFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroundPlane.resx">
+      <DependentUpon>GroundPlane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModelFace.resx">
+      <DependentUpon>ModelFace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModelVertex.resx">
+      <DependentUpon>ModelVertex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateTab.resx">
+      <DependentUpon>CreateTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModelEditor.resx">
+      <DependentUpon>ModelEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModelTab.resx">
+      <DependentUpon>ModelTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoveFrames.resx">
+      <DependentUpon>MoveFrames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiPageControl.resx">
+      <DependentUpon>MultiPageControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ResizeSkin.resx">
+      <DependentUpon>ResizeSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SkinEditor.resx">
+      <DependentUpon>SkinEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewTab.resx">
+      <DependentUpon>ViewTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ArrowMinus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ArrowMove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ArrowOrigin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ArrowPan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ArrowRotate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ArrowScale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ArrowSelect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ArrowTri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ArrowVert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PluginLibrary\PluginLibrary.csproj">
+      <Project>{67FCFEAD-263F-4970-B128-0ACF98460E68}</Project>
+      <Name>PluginLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

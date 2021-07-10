@@ -1,0 +1,12 @@
+C:\projects\VCMDL.NET\PluginHeight\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\VCMDL.NET\VCMDL.NET\bin\Debug\PluginHeight.dll
+C:\projects\VCMDL.NET\VCMDL.NET\bin\Debug\PluginHeight.pdb
+C:\projects\VCMDL.NET\PluginHeight\obj\Debug\PluginHeight.dll
+C:\projects\VCMDL.NET\PluginHeight\obj\Debug\PluginHeight.pdb
+C:\projects\VCMDL.NET\VCMDL.NET\bin\Plugins\PluginHeight.dll
+C:\projects\VCMDL.NET\VCMDL.NET\bin\Plugins\PluginHeight.pdb
+D:\projects\VCMDL.NET\VCMDL.NET\bin\Plugins\PluginHeight.dll
+D:\projects\VCMDL.NET\VCMDL.NET\bin\Plugins\PluginHeight.pdb
+D:\projects\VCMDL.NET\PluginHeight\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\VCMDL.NET\PluginHeight\obj\Debug\PluginHeight.dll
+D:\projects\VCMDL.NET\PluginHeight\obj\Debug\PluginHeight.pdb
